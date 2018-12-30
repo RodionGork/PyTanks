@@ -1,0 +1,14 @@
+{
+    "title":"Intro #1 - commands and comments",
+    "width":7,
+    "height":11,
+    "stars":[
+    ],
+    "walls":[
+        {"x":2, "y":0, "len":3},
+        {"x":2, "y":10, "len":3},
+        {"x":0, "y":5,  "len":1},
+        {"x":6, "y":5,  "len":1}
+    ],
+    "tank":{"x":3, "y":2}
+}

@@ -1,0 +1,91 @@
+body {
+    font-size: 14px;
+}
+#statement-pane {
+    min-height: 90px;
+}
+
+#editor { 
+    width: 100%;
+    height: 600px;
+    border: 1px solid #aaa;
+}
+#gamescreen {
+    background: #aaa;
+    padding: 5px 0px;
+}
+#gamescreen canvas {
+    border: 1px solid #555;
+    margin: 0px auto;
+}
+#output pre {
+    height: 150px;
+    overflow: scroll;
+}
+#alert-modal .modal-dialog {
+    width: 400px;
+}
+#alert-modal .modal-header {
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+}
+#alert-modal .modal-footer {
+    text-align: center;
+}
+#alert-modal .modal-body {
+    font-size: 125%;
+    text-align: center;
+}
+.modal-open {
+    overflow: auto;
+}
+.container {
+    width: auto;
+    max-width: 1300px !important;
+}
+.spacing-before {
+    margin-top: 10px;
+}
+.navbar {
+    background-image: linear-gradient(0deg, #bbb, #fff);
+    font-size: 125%;
+}
+.navbar a:hover {
+    background-image: linear-gradient(0deg, #bbb, #888);
+    color: yellow;
+}
+.navbar .home-link {
+    font-weight: bold;
+}
+h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+h3 {
+    font-size: 115%;
+}
+
+.errors {
+    background: #f88;
+    color: yellow;
+    padding: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.flash-msg {
+    background: #4AF;
+    color: yellow;
+    padding: 3px;
+    font-weight: bold;
+    margin: 3px 0px;
+    border-radius: 5px;
+}
+
