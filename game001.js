@@ -160,13 +160,13 @@ function Game(w, h) {
     }
     
     function gamePreload() {
-        phaserGame.load.spritesheet('star', dataUrl + 'star.png', 40, 40);
-        phaserGame.load.spritesheet('target', dataUrl + 'target.png', 40, 40);
-        phaserGame.load.spritesheet('fire', dataUrl + 'fire.png', 40, 40);
-        phaserGame.load.image('wall', dataUrl + 'wall.png');
-        phaserGame.load.image('hhog', dataUrl + 'hedgehog.png');
-        phaserGame.load.spritesheet('tank', dataUrl + 'tank.png', 40, 40);
-        phaserGame.load.spritesheet('grass', dataUrl + 'grass.png', 20, 20);
+        phaserGame.load.spritesheet('star', dataUrls['star.png'], 40, 40);
+        phaserGame.load.spritesheet('target', dataUrls['target.png'], 40, 40);
+        phaserGame.load.spritesheet('fire', dataUrls['fire.png'], 40, 40);
+        phaserGame.load.image('wall', dataUrls['wall.png']);
+        phaserGame.load.image('hhog', dataUrls['hedgehog.png']);
+        phaserGame.load.spritesheet('tank', dataUrls['tank.png'], 40, 40);
+        phaserGame.load.spritesheet('grass', dataUrls['grass.png'], 20, 20);
         loadSound('engine', 'engine');
         loadSound('engineturn', 'engine2');
         loadSound('explode', 'explode');
@@ -178,7 +178,7 @@ function Game(w, h) {
     }
 
     function loadSound(name, file) {
-        phaserGame.load.audio(name, [dataUrl + file + '.mp3', dataUrl + file + '.ogg']);
+        phaserGame.load.audio(name, [dataUrls[file + '.mp3'], dataUrls[file + '.ogg']]);
     }
     
     function gameCreate() {
